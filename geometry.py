@@ -34,3 +34,9 @@ def cone_volume(r, h):
 def sphere_volume(r):
     v = (4/3) * math.pi * r**3
     return v
+def rectangular_prism_surface_area(w, l, h):
+    a = 2(w * l + h * l + h * w)
+    return a
+def sphere_surface_area(r):
+    a = 4 * math.pi * r**2
+    return a
